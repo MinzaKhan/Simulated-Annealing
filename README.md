@@ -1,5 +1,5 @@
 # Simulated-Annealing
-Used simulated annealing to find the highest point in Minnesota. The data covers the entire state of Minnesota (except for the Northwest Angle, which lies above the 49th parallel)
+Used simulated annealing to find the highest point in Minnesota. The data is present in the file mn-srtm-data. It covers the entire state of Minnesota (except for the Northwest Angle, which lies above the 49th parallel)
 
 Used a geometric decrement for the cooling schedule. I sampled from a two-dimensional Gaussian distribution around the current point for the neighboring function. The algorithm also checks whether a point was within the feasible region or not. For each temperature, the code performs 10,000 iterations. 
 
